@@ -1,0 +1,30 @@
+{
+    "name": "ssx/geo-uk-postcode",
+    "description": "A port of Stephen Morley's UK postcode class useable via composer. ",
+    "type": "library",
+    "keywords": [ "geo", "uk", "postcode" ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Scott Wilcox",
+            "email": "scott@dor.ky",
+            "homepage": "http://dor.ky"
+        },
+        {
+            "name": "Stephen Morley",
+            "homepage": "http://code.stephenmorley.org/"
+        },
+          
+    ],
+    "require": {
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SSX\\Geo\\Utility": "src/"
+        }
+    }
+}
