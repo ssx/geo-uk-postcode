@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SSX\\Geo\\Utility": "src/"
+            "SSX\\Geo\\Utility\\": "src/"
         }
     }
 }
